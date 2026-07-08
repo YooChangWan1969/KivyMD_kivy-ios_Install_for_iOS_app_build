@@ -1,3 +1,6 @@
+# Review This Page
+https://nrodrig1.medium.com/put-kivy-application-on-iphone-b9b4fd4692e9
+
 1. The First INSTALL Python == 3.11.9
 
 2. THE SETTING for kivy-ios

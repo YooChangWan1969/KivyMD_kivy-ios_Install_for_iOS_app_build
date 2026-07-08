@@ -1,19 +1,29 @@
-1. The First INSTALL Python == 3.9.11
+1. The First INSTALL Python == 3.11.9
 
 2. THE SETTING for kivy-ios
 
-2-1. cd python_env_directory
+3. Xcode app required Install
 
-2-2. git clone https://github.com/kivy/kivy-ios.git
+# THE command
 
-2-3. cd kivy-ios
+A. cd python_env_directory
 
-2-4. source ../bin/activate
+B. git clone https://github.com/kivy/kivy-ios.git
 
-2-5. pip install -e .
+C. cd kivy-ios
 
-2-6. toolchain build kivy python3 pillow
+D. source ../bin/activate
 
-2-7. toolchain pip install kivymd==1.2.0
+E. pip install -e .                                                                                                      # It's a "." 
 
-2-8. toolchain pip install beautifulsoup4==4.12.2
+F. toolchain build kivy python3 pillow
+
+G. toolchain pip install kivymd==1.2.0
+
+H. toolchain pip install beautifulsoup4==4.12.2
+
+I. toolchain create Developing_directory /Users/MyName/python_env_directory/Developing_directory                         # It's your working of Developing_directory
+
+J. toolchain icon Developing_directory-ios /Users/MyName/python_env_directory/Developing_directory/images/favicon.png    # favicon.png .... It's icon image file
+
+K. open Developing_directory-ios/Developing_directory.xcodeproj/

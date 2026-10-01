@@ -98,7 +98,7 @@ static UIWindowScene *gKivyScene = nil;
 3. Append AppName-Info.plist Entry with <dict></dict>
 
 <pre>
-	
+"""
 <key>UIApplicationSceneManifest</key>
 <dict>
 	<key>UIApplicationSupportsMultipleScenes</key>
@@ -116,5 +116,5 @@ static UIWindowScene *gKivyScene = nil;
 		</array>
 	</dict>
 </dict>
-		
+"""		
 </pre>

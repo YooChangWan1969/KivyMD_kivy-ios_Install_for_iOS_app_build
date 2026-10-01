@@ -98,23 +98,21 @@ static UIWindowScene *gKivyScene = nil;
 3. Append AppName-Info.plist Entry with <dict></dict>
 
 <pre>
-"""
-<key>UIApplicationSceneManifest</key>
-<dict>
-	<key>UIApplicationSupportsMultipleScenes</key>
-	<false/>
-	<key>UISceneConfigurations</key>
-	<dict>
-		<key>UIWindowSceneSessionRoleApplication</key>
-		<array>
-			<dict>
-				<key>UISceneConfigurationName</key>
-				<string>Default Configuration</string>
-				<key>UISceneDelegateClassName</key>
-				<string>MySceneDelegate</string>
-			</dict>
-		</array>
-	</dict>
-</dict>
-"""		
+&lt;key&gt;UIApplicationSceneManifest&lt;/key&gt;
+&lt;dict&gt;
+	&lt;key&gt;UIApplicationSupportsMultipleScenes&lt;/key&gt;
+	&lt;false/&gt;
+	&lt;key&gt;UISceneConfigurations&lt;/key&gt;
+	&lt;dict&gt;
+		&lt;key&gt;UIWindowSceneSessionRoleApplication&lt;/key&gt;
+		&lt;array&gt;
+			&lt;dict&gt;
+				&lt;key&gt;UISceneConfigurationName&lt;/key&gt;
+				&lt;string&gt;Default Configuration&lt;/string&gt;
+				&lt;key&gt;UISceneDelegateClassName&lt;/key&gt;
+				&lt;string&gt;MySceneDelegate&lt;/string&gt;
+			&lt;/dict&gt;
+		&lt;/array&gt;
+	&lt;/dict&gt;
+&lt;/dict&gt;
 </pre>

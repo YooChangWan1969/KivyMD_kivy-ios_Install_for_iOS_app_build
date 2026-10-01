@@ -95,7 +95,7 @@ static UIWindowScene *gKivyScene = nil;
 @end
 </pre>
 
-3. Append AppName-Info.plist Entry with <dict></dict>
+3. Append AppName-Info.plist Entry within &lt;dict&gt;&lt;/dict&gt;
 
 <pre>
 &lt;key&gt;UIApplicationSceneManifest&lt;/key&gt;
